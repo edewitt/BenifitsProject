@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenifitsWeb", "BenifitsWeb\BenifitsWeb.csproj", "{118EC361-E2F8-4E9C-B0D1-371CADC0BADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenifitsApi", "BenifitsApi\BenifitsApi.csproj", "{B487E529-26F0-4E07-A0E4-53D2A59C70D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenifitsApi.Tests", "BenifitsApi.Tests\BenifitsApi.Tests.csproj", "{0AEB5C74-AD2B-4CE9-BD02-0BC7D19E83BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B78377CD-3AE8-40A2-894D-1CE29EB068B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{8706D225-238F-48D9-9602-8D278C0CBCE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{118EC361-E2F8-4E9C-B0D1-371CADC0BADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118EC361-E2F8-4E9C-B0D1-371CADC0BADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118EC361-E2F8-4E9C-B0D1-371CADC0BADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118EC361-E2F8-4E9C-B0D1-371CADC0BADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B487E529-26F0-4E07-A0E4-53D2A59C70D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B487E529-26F0-4E07-A0E4-53D2A59C70D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B487E529-26F0-4E07-A0E4-53D2A59C70D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B487E529-26F0-4E07-A0E4-53D2A59C70D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEB5C74-AD2B-4CE9-BD02-0BC7D19E83BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEB5C74-AD2B-4CE9-BD02-0BC7D19E83BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEB5C74-AD2B-4CE9-BD02-0BC7D19E83BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEB5C74-AD2B-4CE9-BD02-0BC7D19E83BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78377CD-3AE8-40A2-894D-1CE29EB068B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78377CD-3AE8-40A2-894D-1CE29EB068B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78377CD-3AE8-40A2-894D-1CE29EB068B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78377CD-3AE8-40A2-894D-1CE29EB068B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8706D225-238F-48D9-9602-8D278C0CBCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8706D225-238F-48D9-9602-8D278C0CBCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8706D225-238F-48D9-9602-8D278C0CBCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8706D225-238F-48D9-9602-8D278C0CBCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://azshliar.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BenifitsApi.Tests\\BenifitsApi.Tests.csproj
+		SccProjectName1 = BenifitsApi.Tests
+		SccLocalPath1 = BenifitsApi.Tests
+		SccProjectUniqueName2 = BenifitsApi\\BenifitsApi.csproj
+		SccProjectName2 = BenifitsApi
+		SccLocalPath2 = BenifitsApi
+		SccProjectUniqueName3 = BenifitsWeb\\BenifitsWeb.csproj
+		SccProjectName3 = BenifitsWeb
+		SccLocalPath3 = BenifitsWeb
+		SccProjectUniqueName4 = DAL\\DAL.csproj
+		SccProjectName4 = DAL
+		SccLocalPath4 = DAL
+		SccProjectUniqueName5 = Models\\Models.csproj
+		SccProjectName5 = Models
+		SccLocalPath5 = Models
+	EndGlobalSection
+EndGlobal
